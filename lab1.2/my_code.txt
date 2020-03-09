@@ -1,0 +1,9 @@
+func calculateLength(int a, int b) {
+	int length = a + b;
+	return length;
+}
+
+func main() {
+	int a = calculateLength(10,20);
+	print a;
+}
