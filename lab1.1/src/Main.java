@@ -103,9 +103,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        char[] Vn = {'S','B','D'};
-        char[] Vt = {'a','b','c'};
-        String[] P = {"S->aB","S->bB","B->bD","D->b","D->aD","B->cB","B->aS"};
+
         char[][] matrix = createMatrix(Vn,Vt,P);
         System.out.println("NFA : ");
         for(int i = 0; i< 6; i++){

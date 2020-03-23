@@ -1,0 +1,8 @@
+n2 [peripheries=2];
+n0 -> n1 [label=A];
+n0 -> n0 [label=B];
+n1 -> n1 [label=A];
+n1 -> n2 [label=B];
+n2 -> n1 [label=A];
+n2 -> n2 [label=B];
+}
