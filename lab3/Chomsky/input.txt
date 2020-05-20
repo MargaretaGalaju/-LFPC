@@ -1,0 +1,3 @@
+S aB BS
+A a bS AabB
+B 0 bS aABA
