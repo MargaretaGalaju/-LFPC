@@ -1,10 +1,4 @@
-package com;/*
-
-    CLASS       : Main
-    DESCRIPTION : Manages the reading of files and provides an entry point to
-                  the Lexer and Parser classes.
-
-*/
+package com;
 
 import com.lexer.Lexer;
 import com.lexer.Token;
