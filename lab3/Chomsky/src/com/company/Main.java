@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            Chomsky chomsky = new Chomsky(new File("input.txt"));
+            Chomsky chomsky = new Chomsky(new File("input_V10.txt"));
             chomsky.to_chomsky();
         }
         catch (FileNotFoundException e){
